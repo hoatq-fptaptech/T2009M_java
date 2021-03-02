@@ -51,5 +51,8 @@ public class Main {
         for(int i=0;i<arrDog.size();i++){
             arrDog.get(i).run();
         }
+        for(Dog d : arrDog){
+            d.run();
+        }
     }
 }
